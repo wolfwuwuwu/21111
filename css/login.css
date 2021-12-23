@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 10px auto;
+}
+
+.warpper {
+  height: 100%;
+  display: flex;
+}
+.warpper .side {
+  width: 375px;
+  height: 100%;
+  background: url(https://cdn.web-global.fds.api.mi-img.com/mcfe--mi-account/static/static/media/banner.4994397e.jpg) no-repeat center center/cover;
+}
+.warpper .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.warpper .content .top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 1%;
+}
+.warpper .content .top .logo {
+  flex: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+.warpper .content .top .logo img {
+  width: 50px;
+  height: 50px;
+}
+.warpper .content .top .logo h4 {
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 1%;
+}
+.warpper .content .top .text {
+  font-size: 14px;
+  color: #A6B0C6;
+  vertical-align: bottom;
+  padding-right: 2%;
+}
+.warpper .content .top .text select {
+  border: 0;
+  outline: none;
+  color: #A6B0C6;
+}
+.warpper .content .top .text span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.warpper .content .top .text i {
+  font-style: normal;
+  margin: 0 20px;
+}
+.warpper .content .middle {
+  width: 760px;
+  height: 680px;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-30%);
+  padding: 40px 150px 0 150px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px #000;
+}
+.warpper .content .middle .msg {
+  width: 450px;
+  height: 600px;
+  padding: 50px 50px;
+  box-sizing: border-box;
+}
+.warpper .content .middle .msg h3 {
+  color: #CEC9C9;
+  font-size: 20px;
+  font-weight: normal;
+  display: flex;
+}
+.warpper .content .middle .msg h3 span {
+  padding: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.warpper .content .middle .msg h3 .loginSpan {
+  margin-right: 15px;
+}
+.warpper .content .middle .msg .item {
+  margin-top: 30px;
+}
+.warpper .content .middle .msg .item input {
+  display: inline-block;
+  width: 350px;
+  height: 60px;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  background: #FCF2F3;
+  padding-left: 15px;
+}
+.warpper .content .middle .msg .item input::placeholder {
+  color: #F68F8F;
+}
+.warpper .content .middle .msg .item span {
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 12px;
+  color: red;
+}
+.warpper .content .middle .msg input[type=button] {
+  width: 350px;
+  height: 60px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  background: #FFBE99;
+  color: #fff;
+  font-size: 20px;
+}
+.warpper .content .middle .msg .forget {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.warpper .content .middle .msg .forget p {
+  cursor: pointer;
+  color: #FFA878;
+}
+.warpper .content .middle .active {
+  color: #000;
+  border-bottom: 2px solid #FF5200;
+  font-weight: 700;
+}
+.warpper .content .middle .login {
+  position: absolute;
+}
+.warpper .content .middle .register {
+  position: absolute;
+  display: none;
+}
+.warpper .content .buttom {
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-30%);
+}
+.warpper .content .buttom span {
+  font-size: 12px;
+  color: #A6B0C6;
+}
+
+/*# sourceMappingURL=login.css.map */

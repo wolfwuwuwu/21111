@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #F6F6F6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 90px;
+  background: #fff;
+  border-bottom: 2px solid red;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .left {
+  width: 700px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .left img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.header .container .left h3 {
+  font-size: 40px;
+  font-weight: normal;
+}
+.header .container .left p {
+  font-size: 15px;
+  color: #6b6a69;
+  margin-top: 17px;
+}
+.header .container .right {
+  font-size: 20px;
+  color: #fa8713;
+}
+.header .container .right span {
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 30px;
+  background: #fff;
+}
+.content h3 {
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
+  color: #FF6700;
+}
+.content input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.content table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.content table th {
+  height: 40px;
+}
+.content table th:nth-child(2) {
+  text-align: left;
+  padding-left: 35px;
+  box-sizing: border-box;
+}
+.content table td {
+  border-top: 1px solid #ccc9c9;
+  height: 80px;
+}
+.content table tr td:nth-child(2) {
+  width: 600px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  position: relative;
+  text-align: left;
+  font-size: 15px;
+}
+.content table tr td:nth-child(2) img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  transform: translateY(-50%);
+}
+.content table tr td:nth-child(4) input {
+  width: 70px;
+  height: 40px;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.content table tr td:nth-child(4) input[type=button] {
+  display: inline-block;
+  width: 40px;
+  height: 42px;
+  cursor: pointer;
+}
+.content table tr td:nth-child(4) input[type=text] {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.content table tr td:nth-child(5) {
+  color: red;
+  width: 150px;
+}
+.content table tr td:last-child {
+  color: #818181;
+}
+.delet{
+  cursor: pointer;
+}
+.total {
+  height: 60px;
+  background: #fff;
+  position: fixed;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total .left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.total .left .gouwu {
+  margin: 0 20px;
+}
+.total .left .gouwu a {
+  font-size: 14px;
+  color: #505050;
+}
+.total .left p {
+  font-size: 14px;
+  color: #AAABB2;
+}
+.total .left p span {
+  color: #FF987C;
+  font-weight: 600;
+}
+.total .right {
+  display: flex;
+}
+.total .right .totalEle {
+  font-size: 14px;
+  line-height: 60px;
+  margin-right: 20px;
+  color: #FF8A32;
+}
+.total .right .totalEle span {
+  font-size: 24px;
+}
+.total .right .btn {
+  width: 150px;
+  height: 60px;
+  background: #FF6700;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  position: fixed;
+  bottom: 0px;
+}
+
+/*# sourceMappingURL=carts.css.map */
